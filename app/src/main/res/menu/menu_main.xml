@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/AddMeal"
+        android:title="Add Meal"
+        app:showAsAction='never' />
+
+    <item
+        android:id="@+id/DeleteMeal"
+        android:title="Delete Meal"
+        app:showAsAction='never'
+        />
+
+    <item
+        android:id="@+id/ReviewMeals"
+        android:title="Review Meal"
+        app:showAsAction='never'
+        />
+
+
+    <item
+        android:id="@+id/About"
+        android:title="About"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"
+       />
+
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#e3ffff"
+        android:isScrollContainer="true"
+        tools:context="welld.wellnessdiary.activities.About">
+
+
+
+
+        <TextView android:text="Wellness Diary allows you to add your meal details as a food diary. You can later review your meals and keep track of your health data in an efficient way."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textColor="#3e7bdd" />
+
+        <TextView android:text="   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView android:text="Add Meal has 'Meal' field for entering the type fo meal e.g lunch or dinner.'Comments' section for entering the amount of meal etc.There are two buttons for entering the data and the time stamp of the consumed meal. Then we can enter the image by clicking on the 'Take Photo' button which allows the user to enter the image either from the gallery or clicking an image from the camera. By clicking the 'Save' button we can save the meal data."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textColor="#3e7bdd" />
+
+        <TextView android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:text="Review Meal allows you to review your past meal records. It has a list view which shows all the meal data recorded by the user and by clicking them again you can edit the data. It has two buttons for entering the start date and end date. On clicking 'Go' button it shows all the recorded meals within that period. Then by seeing that data we can select any of the radio buttons 'Need Improvement' or 'Good Progress'. You can enter the comments in the 'Comment' section and on clicking 'Save' button the data is saved back."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textColor="#3e7bdd" />
+
+        <TextView android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:text="You can also share your data with your friends and dietician in the future "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textColor="#3e7bdd" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
